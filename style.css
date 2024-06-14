@@ -1,0 +1,43 @@
+*{
+    box-sizing: content-box;
+  }
+  body{
+     
+      padding: 15px;
+      border-radius: 4px;
+      margin: 16px 35px; 
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .main_head,.main{
+      text-align: center;
+      font-size: 700;
+   ;
+  }
+  .background{
+      background-color: rgb(216, 221, 160);
+      padding: 10px;
+      border: 3px solid black;
+      border-radius: 4px;
+  }
+  input [type="email"],
+  input [type="Your Message"],
+  input [type="pincode"],
+  input [type="Address"],
+  input [type="City"],
+  input [type="state"],
+  textarea{
+      width: 90%;
+      padding: 10px;
+      border: 3px solid black;
+      border-radius: 4px;
+  }
+  input[type="submit"]{
+      text-align: center;
+      width: 99%;
+     
+      background-color: cornsilk;
+  }
+  input[type="submit"]:hover{
+      background-color: darkgray;
+  }
+  

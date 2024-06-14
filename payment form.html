@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <form action="">
+           
+            <h1 class="main_idea">Payment Form</h1>
+            <h2>*required field</h2>
+            <h2>Contact Information</h2>
+            <p></p>Name: <input type="text" name="name" required></p>
+            <fieldset>
+                <legend>Gender</legend>
+            <p>
+                male<input type="radio" name="gender" id="male" required> female <input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="7"></textarea></p>
+        <p>Email: <input type="email" name="email" id="email"></p>
+        <p>pincode <input type="number" name="pincode" id="pincode"></p>
+        <h2>Payment information</h2>
+        <p class="Card">Card type* :
+            <select name="card_type" id="card_type">
+                <option value="--select a card type--"></option>
+                <option value="visa">visa <img src="C:\Users\supri\OneDrive\Desktop\New folder\download (2).png" alt="this is a image"></option>
+                <option value="mastercard">mastercard <img src="C:\Users\supri\OneDrive\Desktop\New folder\download.png" alt=""></option>
+                <option value="rupay">rupay <img src="C:\Users\supri\OneDrive\Desktop\New folder\download (1).png" alt=""></option>
+            </select>
+        </p>
+        <p>
+            card number * <input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p>
+            Expiration date * <input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p>
+            CVV * <input type="password" name="CVV" id="CVV">
+        </p>
+        <input type="submit" value="Pay Now" name="Pay Now" id="Pay Now">
+        </form>
+</body>
+</html>
